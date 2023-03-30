@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background: linear-gradient(#00545d,#000729);
+    color: whitesmoke ;
+    text-align: center;
+}
+
+#about{
+    background-image: url("Images/background4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 40px;
+    margin: 50px;
+    color: wheat;
+}
+
+.logo-img {
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+#products{
+   margin: 50px;
+   padding: 40px;
+   color: wheat;
+   background: linear-gradient(#00545d,#000729);
+}
+
+#products h5  {
+    color: #00545d;
+}
+#products li {
+    color: #00545d;
+    text-align: left;
+}
+
+
+.services{
+background: linear-gradient(#00545d,#000729);
+ color: antiquewhite;
+ font-weight: 300;
+ margin: 50px;
+ padding: 40px;
+ text-decoration: none;
+}
+
+.services li{
+    list-style: none;
+}
+#contact {
+    padding: 40px;
+    margin: 50px;
+    background-color: #000729;
+}
+
+#contact a{
+    margin: 20px;
+}
+
+#location{
+    padding: 30px;
+    margin: 40px;
+    background:linear-gradient(#00545d,#000729) ;
+}
+
+#kasko{
+    padding: 5px;
+    background-color: #000729;
+    margin: 10px;
+    border-radius: 40px;
+    border-color: #000729;
+}
+
+footer{
+    background-color: #00545d;
+    height: 25px;
+    width: 100vw;
+    color:black;
+    font-size: 20px;
+}
+
+
+
