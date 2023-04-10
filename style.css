@@ -10,15 +10,24 @@ body {
     color: whitesmoke ;
     text-align: center;
 }
+header{
+    width: 100vw;
+}
 
 #about{
-    background-image: url("Images/background4.jpg");
+   background-color: #00545d;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 40px;
     margin: 50px;
     color: wheat;
+    font-size: 30px;
+}
+#services-icon{
+    margin: 20px;
+    padding: 10px;
+    
 }
 
 .logo-img {
@@ -31,14 +40,24 @@ body {
    padding: 40px;
    color: wheat;
    background: linear-gradient(#00545d,#000729);
+   color: #00545d;
 }
 
-#products h5  {
-    color: #00545d;
+#products h3{
+    color: aliceblue;
+    top: 0;
+    padding: 30px;
 }
-#products li {
-    color: #00545d;
+
+#product li{
+   text-align: left;
+}
+#product-card{
+    background-color: teal;
+    color: aliceblue;
+    font-size: 1.5rem;
     text-align: left;
+    justify-content: left;
 }
 
 
@@ -86,5 +105,17 @@ footer{
     font-size: 20px;
 }
 
+  
+  @media screen and (max-width: 768px) {
+    #card {
+      max-width: none;
+    }
+    #card img {
+      height: auto;
+    }
+    #container {
+      padding: 10px;
+    }
+}
 
 
