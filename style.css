@@ -23,6 +23,8 @@ header{
     margin: 50px;
     color: wheat;
     font-size: 30px;
+    font-style: italic;
+    
 }
 #services-icon{
     margin: 20px;
@@ -115,7 +117,7 @@ footer{
     }
    #about,#products,#services,#location,#contact{
     padding: 7px;
-    margin: 5px;
+    margin: 10px;
    }
   
 }
