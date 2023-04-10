@@ -89,7 +89,7 @@ background: linear-gradient(#00545d,#000729);
     background:linear-gradient(#00545d,#000729) ;
 }
 
-#kasko{
+.kasko{
     padding: 5px;
     background-color: #000729;
     margin: 10px;
@@ -113,9 +113,11 @@ footer{
     #card img {
       height: auto;
     }
-    #container {
-      padding: 10px;
-    }
+   #about,#products,#services,#location,#contact{
+    padding: 7px;
+    margin: 5px;
+   }
+  
 }
 
 
