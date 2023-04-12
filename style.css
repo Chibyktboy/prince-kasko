@@ -108,7 +108,7 @@ footer{
 }
 
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 750px) {
     #card {
       max-width: none;
     }
@@ -118,6 +118,13 @@ footer{
    #about,#products,#services,#location,#contact{
     padding: 7px;
     margin: 10px;
+   }
+   #about p{
+   font-size: smaller;
+   font-weight: 400;
+   letter-spacing: 2px;
+   text-align: left;
+   margin: 10px;
    }
   
 }
