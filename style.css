@@ -123,8 +123,9 @@ footer{
    font-size: smaller;
    font-weight: 400;
    letter-spacing: 2px;
-   text-align: left;
    margin: 10px;
+   text-align: center;
+   justify-items: center;
    }
   
 }
